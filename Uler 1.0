@@ -31,17 +31,17 @@ eDirecton dir;
 
 void header()
 {
-	cout<<"\t\t\t================================== \n";
-	cout<<"\t\t\t            [Snake Game] \n";
-	cout<<"\t\t\t================================== \n";
+	cout<<"\t\t\t\t\t================================== \n";
+	cout<<"\t\t\t\t\t            [Snake Game] \n";
+	cout<<"\t\t\t\t\t================================== \n";
 }
 
 //fungsi game berakhir
 void GameOver()
 {
-	cout<<"\t\t\t================================== \n";
-	cout<<"\t\t\t            [Game Over] \n";
-	cout<<"\t\t\t================================== \n";
+	cout<<"\t\t\t\t\t================================== \n";
+	cout<<"\t\t\t\t\t            [Game Over] \n";
+	cout<<"\t\t\t\t\t================================== \n";
 }
 
 
@@ -51,17 +51,17 @@ void timer(){
 	for (waktu = 0; waktu <= 5; waktu++){
 		cout << "\n";
 		cout << "\n";
-		cout << "\t\t\t\tLoading.....";
+		cout << "\t\t\t\t\t Loading.....";
 		Sleep(50);
 		system("cls");
 		cout << "\n";
 		cout << "\n";
-		cout << "\t\t\t\tLoading....";
+		cout << "\t\t\t\t\t Loading....";
 		Sleep(50);
 		system("cls");
 		cout << "\n";
 		cout << "\n";
-		cout << "\t\t\t\tLoading..";
+		cout << "\t\t\t\t\t Loading..";
 		Sleep(50);
 		system("cls");
 	}
@@ -226,9 +226,9 @@ int main()
 
 	timer();
 	header();
-	cout<< "\n\t\t\t[Y] Play Game";
-	cout<< "\n\t\t\t[N] Quit Game";
-	cout<< "\n\n\t\t\tChoose : "; cin >> choose;
+	cout<< "\n\t\t\t\t\t[Y] Play Game";
+	cout<< "\n\t\t\t\t\t[N] Quit Game";
+	cout<< "\n\n\t\t\t\tChoose : "; cin >> choose;
 
 	
 	if(choose=="Y" || choose=="y"){
@@ -247,7 +247,7 @@ int main()
 	
 
 	GameOver();
-	cout << "\n\t\t\tScore = " << score << endl;
+	cout << "\n\t\t\t\t\t\t  Score = " << score << endl;
 }
 
 	else if(choose=="n"||choose=="N"){
@@ -255,8 +255,8 @@ int main()
 	}
 	
 	else{
-		cout<<"\t\t\t================================== \n";
-		cout<<"\t\t\t\t   Not detected\n";
+		cout<<"\t\t\t\t\t================================== \n";
+		cout<<"\t\t\t\t\t         Not detected\n";
 	}
 
 	return 0;
