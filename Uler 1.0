@@ -51,17 +51,17 @@ void timer(){
 	for (waktu = 0; waktu <= 5; waktu++){
 		cout << "\n";
 		cout << "\n";
-		cout << "\t\t\t\tLoading.....";
+		cout << "\t\t\t\t\t\tLoading.....";
 		Sleep(50);
 		system("cls");
 		cout << "\n";
 		cout << "\n";
-		cout << "\t\t\t\tLoading....";
+		cout << "\t\t\t\t\t\tLoading....";
 		Sleep(50);
 		system("cls");
 		cout << "\n";
 		cout << "\n";
-		cout << "\t\t\t\tLoading..";
+		cout << "\t\t\t\t\t\tLoading..";
 		Sleep(50);
 		system("cls");
 	}
