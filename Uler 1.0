@@ -31,9 +31,9 @@ eDirecton dir;
 
 void header()
 {
-	cout<<"\t\t\t================================== \n";
-	cout<<"\t\t\t            [Snake Game] \n";
-	cout<<"\t\t\t================================== \n";
+	cout<<"\t\t\t\t\t================================== \n";
+	cout<<"\t\t\t\t\t            [Snake Game] \n";
+	cout<<"\t\t\t\t\t================================== \n";
 }
 
 //fungsi game berakhir
