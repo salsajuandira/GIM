@@ -39,9 +39,9 @@ void header()
 //fungsi game berakhir
 void GameOver()
 {
-	cout<<"\t\t\t================================== \n";
-	cout<<"\t\t\t            [Game Over] \n";
-	cout<<"\t\t\t================================== \n";
+	cout<<"\t\t\t\t\t================================== \n";
+	cout<<"\t\t\t\t\t            [Game Over] \n";
+	cout<<"\t\t\t\t\t================================== \n";
 }
 
 
