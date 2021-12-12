@@ -31,17 +31,17 @@ eDirecton dir;
 
 void header()
 {
-	cout<<"\t\t\t================================== \n";
-	cout<<"\t\t\t            [Snake Game] \n";
-	cout<<"\t\t\t================================== \n";
+	cout<<"\t\t\t\t\t================================== \n";
+	cout<<"\t\t\t\t\t            [Snake Game] \n";
+	cout<<"\t\t\t\t\t================================== \n";
 }
 
 //fungsi game berakhir
 void GameOver()
 {
-	cout<<"\t\t\t================================== \n";
-	cout<<"\t\t\t            [Game Over] \n";
-	cout<<"\t\t\t================================== \n";
+	cout<<"\t\t\t\t\t================================== \n";
+	cout<<"\t\t\t\t\t            [Game Over] \n";
+	cout<<"\t\t\t\t\t================================== \n";
 }
 
 
